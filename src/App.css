@@ -1,0 +1,109 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f3f4f6, #dbeafe);
+  min-height: 100vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main container */
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #1e3a8a;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* Event form styles */
+.event-form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-form input,
+.event-form textarea {
+  width: 90%;
+  padding: 12px;
+  margin: 12px auto;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f8fafc;
+}
+
+.event-form button {
+  padding: 10px 25px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.event-form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Event list container */
+.event-list {
+  text-align: left;
+}
+
+/* Individual event card */
+.event-card {
+  background: #ffffff;
+  border-left: 6px solid #2563eb;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(30, 64, 175, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.01);
+}
+
+/* Button container */
+.event-buttons {
+  margin-top: 15px;
+}
+
+/* Buttons inside each card */
+.event-buttons button {
+  margin-right: 12px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: transform 0.2s, background-color 0.2s;
+  background-color: #ef4444; /* red */
+  color: white;
+}
+
+.event-buttons button:hover {
+  background-color: #dc2626;
+  transform: translateY(-1px);
+}
