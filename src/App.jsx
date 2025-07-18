@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Event Manager</h1>
+      <h1>Event Management</h1>
       <form onSubmit={handleSubmit} className="event-form">
         <input
           name="title"
